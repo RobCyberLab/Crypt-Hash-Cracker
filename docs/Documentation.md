@@ -138,7 +138,7 @@ Output:
 ```
 
 <p align="center">
-  <img src="ex2.png" alt="Multiple Hashes" width="500">
+  <img src="ex2.png" alt="Multiple Hashes" width="800">
   <br>
   <em>Multiple Hashes in hashes.txt</em>
 </p>
