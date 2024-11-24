@@ -1,21 +1,21 @@
 # Crypt Hash Cracker Documentation
 
 ## Table of Contents
-1. [Project Overview](#project-overview-)
-2. [Installation](#installation-)
-3. [Usage](#usage-)
-4. [Hash Processing](#hash-processing-)
-5. [Examples](#examples-)
+1. [Project Overview](#project-overview)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Hash Processing](#hash-processing)
+5. [Examples](#examples)
 
-## Project Overview 📝
+## Project Overview📝
 The Crypt Hash Cracker is a command-line tool designed to crack various types of cryptographic hashes using a dictionary-based approach. The project consists of two main components: a hash generation tool (`hash_create.py`) for creating test data, and the main cracking tool (`hash.py`). It supports multiple hash types including MD5, SHA1, SHA256, SHA384, and SHA512, making it versatile for testing and educational purposes.
 
-## Installation ⚙️
+## Installation⚙️
 To install and run the Crypt Hash Cracker locally, follow these steps:
 
 1. Clone the project repository:
 ```bash
-git clone https://github.com/yourusername/crypt-hash-cracker.git
+git clone https://github.com/RobCyberLab/Crypt-Hash-Cracker.git
 ```
 
 2. Navigate to the project directory:
@@ -33,7 +33,7 @@ pip install requests urllib3 tqdm
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 ```
 
-## Usage 📖
+## Usage📖
 The project consists of two main scripts:
 
 ### Hash Creation (hash_create.py)
@@ -61,7 +61,7 @@ python3 hash.py -f <hashfile>
    - `-t, --threads`: Number of threads (default: 4)
    - `-v, --verbose`: Enable verbose output
 
-## Hash Processing 🔐
+## Hash Processing🔐
 The project implements several key features for hash processing:
 
 ### Supported Hash Types
@@ -96,7 +96,7 @@ class RateLimiter:
         self.timestamps = []
 ```
 
-## Examples 📌
+## Examples📌
 
 ### Example 1: Creating Hash Database
 ```bash
