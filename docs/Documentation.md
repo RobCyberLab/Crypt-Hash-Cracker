@@ -116,6 +116,12 @@ Output:
 ```
 [+] MD5 -> 5f4dcc3b5aa765d61d8327deb882cf99: password
 ```
+<p align="center">
+  <img src="ex1.png" alt="Single Hash: 5f4dcc3b5aa765d61d8327deb882cf99" width="500">
+  <br>
+  <em>Single Hash: 5f4dcc3b5aa765d61d8327deb882cf99 </em>
+</p>
+
 
 ### Example 3: Cracking Multiple Hashes
 ```bash
