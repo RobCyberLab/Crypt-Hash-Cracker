@@ -1,13 +1,13 @@
 # 🔗Crypt Hash Cracker🧩
 
 ## Table of Contents
-1. [Introduction](#introduction-)
-2. [Technical Description](#technical-description-)
-3. [Technologies Used](#technologies-used-)
-4. [Main Features](#main-features-)
-5. [Use Cases](#use-cases-)
-6. [Results and Insights](#results-and-insights-)
-7. [Possible Improvements](#possible-improvements-)
+1. [Introduction](#introduction)
+2. [Technical Description](#technical-description)
+3. [Technologies Used](#technologies-used)
+4. [Main Features](#main-features)
+5. [Use Cases](#use-cases)
+6. [Results and Insights](#results-and-insights)
+7. [Possible Improvements](#possible-improvements)
 
 ## Introduction📘
 The Hash Cracker Tool is a command-line application designed for hash analysis and cracking. It supports multiple hash types (MD5, SHA1, SHA256, SHA384, SHA512) and utilizes multi-threading for efficient processing. This tool is particularly useful for password recovery, security testing, and educational purposes in understanding hash functions and cryptography.
