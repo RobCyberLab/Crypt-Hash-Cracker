@@ -130,11 +130,33 @@ python3 hash.py -f hashes.txt -t 8
 Output:
 ```
 [*] Reading hashes from file: hashes.txt
-[!] Found 100 unique hashes
+[!] Found 13 unique hashes
 [*] Starting crack with 8 threads
 
-[+] Successfully cracked: 75/100 (75.0%)
+[+] Successfully cracked: 11/13 (84.6%)
 [+] Results saved to cracked-hashes.txt
+```
+
+<p align="center">
+  <img src="ex2.png" alt="Multiple Hashes" width="500">
+  <br>
+  <em>Multiple Hashes in hashes.txt</em>
+</p>
+
+Cracked Hashes are written down in cracked-hashes.txt file.
+
+```
+sunshine:0571749e2ac330a7455809c6b0e7af90:MD5
+qwerty:d8578edf8458ce06fbc5bb76a58c5ca4:MD5
+iloveu:b78034aacf3559fffbfcb545d9a9122efb93181f:SHA1
+password:5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8:SHA1
+chocolate:691d5950b454482956f83d2fae4bc0b32cd0a53ac68607ebf01104b757d1fa10dd02c50d69b18c29f7ec2f248b011c429a864fef63d069967c47af8ae4e1a5ee:SHA512
+bubbles:e10c2e85166d8d07d6c26831c8226d30c96cb87742d977ff81b19f2e84eb9fbe75159bfa19c5accc99b0354e2346651e:SHA384
+password:5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8:SHA256
+monkey:65a0ef45df509ad1cf01501b2a1b12cc2fbac0f00a31ae6f3ddc361396955216fb3a4d84e18dc1065dff311e3943878bc0bdb8a60caefd2fbdc6b2a757a3204b:SHA512
+password:5f4dcc3b5aa765d61d8327deb882cf99:MD5
+123456:0a989ebc4a77b56a6e2bb7b19d995d185ce44090c13e2984b7ecc6d446d4b61ea9991b76a4c2f04b1b4d244841449454:SHA384
+1234:81dc9bdb52d04dc20036dbd8313ed055:MD5
 ```
 
 Note: The tool includes several features to enhance functionality:
